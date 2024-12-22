@@ -1,0 +1,23 @@
+import numpy as np
+import numpy.matlib as ml
+array_1d = np.array([2,3,4])
+arr1 = np.array([[1,2,3,4,5],[6,7,8,9,10]])
+array_3d = np.array([[[1,4,7,8],[2,3,9,7]],[[2,4,5,7],[2,4,5,1]]])
+arr = np.array([1,2,3,4,5],ndmin=4)
+print(arr)
+print(arr.ndim)
+print(arr1[1,-1])
+print(array_3d[1,1,3])
+print(arr1[1,1:4:3])
+print(array_3d[1,])
+
+# print(array_1d.ndim)
+print(array_3d.ndim)
+# print(array_1d)
+# print(array_2d)
+# print(array_2d[0,0])
+# print(array_1d/2)
+# matrix1 = ml.eye((8))
+# print(matrix1)
+# matrix2  = ml.rand((3,3))
+# print(matrix2)
